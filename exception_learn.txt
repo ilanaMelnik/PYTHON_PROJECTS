@@ -1,0 +1,26 @@
+Exceptions excersize
+
+Goal: 
+
+create small program that reads username + password from the user 
+Check username and password according to the specific rules to each of them. 
+If something is not by the rules - raise specific exception
+
+Rules for the username: 
+----------------------
+user name length [3-16]
+user name contains nothing than:
+	#   numbers
+	#   '_'
+	#   letters
+
+	
+Rules for the password: 
+----------------------
+password length [8-40]
+password must contain the next characters:
+	#  at least 1 upper letter
+	#  at least 1 lower letter
+	#  at least 1 number
+	#  at least 1 special character (for exp: ! | . | % | # |@ |* ...)
+
