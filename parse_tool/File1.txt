@@ -1,0 +1,59 @@
+Hi Ilana,
+
+We’d like you to complete this assignment as part of our hiring process. It’s meant to assess your skills in Python and give us an idea of how you approach it.
+
+Please complete it no later than a week.
+
+I’ll be glad to answer any questions, so feel free to contact us anytime (Amit is CC'd).
+
+ 
+
+ 
+
+The task:
+
+ 
+
+Implement a pattern Python3 script that searches for a pattern using a regular expression in lines of text, and prints the lines which contain matching text.
+
+The script's output format should be: "file_name line_number line".
+
+ 
+
+Guidelines:
+
+Assume the input is in ASCII, there’s no need to deal with different encodings.
+Multiple matches on a single line are allowed without overlapping.
+The script should be usable out of the box on a Linux machine.
+Please add proper documentation and error handling.
+The script should adhere to PEP8 coding guidelines.
+Please provide a list of any external libraries used.
+ 
+
+Implementation is up for you to decide and using OOP is preferred. When using OOP, please describe the design pattern that was used.
+
+ 
+
+The script accepts the following parameters:
+
+-r, --regex       mandatory - the regular expression to search for regular.
+
+-f, --files       optional - a list of files to search in. If this parameter is omitted, the script expects text input from STDIN.
+
+ 
+
+These extra parameters are mutually exclusive:
+
+-u, --underline   optional - "^" is printed underneath the matched text.
+
+-c, --color       optional - the matched text is highlighted in color [1].
+
+-m, --machine     optional - print the output in the format: "file_name:line_number:start_position:matched_text".
+
+ 
+
+Hint: It is recommended to use a module for parsing the command line arguments and the "re" module for matching the pattern.
+
+ 
+
+1 - http://www.pixelbeat.org/
